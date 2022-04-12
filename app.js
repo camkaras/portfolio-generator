@@ -7,6 +7,16 @@ const printProfileData = (profileDataArr) => {
         console.log(profileDataArr);
     }
 
+
+
+
+    console.log('================');
+
+    //IS the same as this...
+
+    profileDataArr.forEach((profileItem) => {
+        console.log(profileItem)
+        
+    });
 };
 
-printProfileData(profileDataArgs)
